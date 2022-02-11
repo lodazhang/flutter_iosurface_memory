@@ -1,0 +1,6 @@
+module smart_wall_preview_plugin {
+  umbrella header "smart_wall_preview_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

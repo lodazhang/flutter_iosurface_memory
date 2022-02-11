@@ -1,0 +1,1 @@
+../../../../memory_test/.ios/Flutter/FlutterPluginRegistrant/Classes/GeneratedPluginRegistrant.h

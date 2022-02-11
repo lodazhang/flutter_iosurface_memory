@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - smart_wall_preview_plugin
+  - Masonry (1.1.0)
+  - memory_test (0.0.1):
+    - Flutter
+  - smart_wall_preview_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `memory_test/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `memory_test/.ios/Flutter/FlutterPluginRegistrant`)
+  - Masonry
+  - memory_test (from `memory_test/.ios/Flutter`)
+  - smart_wall_preview_plugin (from `memory_test/.ios/.symlinks/plugins/smart_wall_preview_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: memory_test/.ios/Flutter/engine
+  FlutterPluginRegistrant:
+    :path: memory_test/.ios/Flutter/FlutterPluginRegistrant
+  memory_test:
+    :path: memory_test/.ios/Flutter
+  smart_wall_preview_plugin:
+    :path: memory_test/.ios/.symlinks/plugins/smart_wall_preview_plugin/ios
+
+SPEC CHECKSUMS:
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  FlutterPluginRegistrant: ed479bf5c2ff78afac60add32b046b9e2e31ce8c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  memory_test: 69a1124058c872d3dcdb0d42857d16cea64b2082
+  smart_wall_preview_plugin: 3a858587e86292f21b38ce52ed69cccc9e8ca5c8
+
+PODFILE CHECKSUM: a39f711c3985996ead61da86b11910e4184c610d
+
+COCOAPODS: 1.10.2

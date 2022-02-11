@@ -1,0 +1,21 @@
+platform :ios, '10.0'
+
+
+
+# 修改为自己的Flutter环境
+@flutter_application_path = './memory_test'
+load File.join(@flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+def pod_flutter
+  install_all_flutter_pods(@flutter_application_path)
+end
+
+
+
+target 'iosurface_test' do
+  pod_flutter
+  pod 'Masonry'
+  
+end
+
+

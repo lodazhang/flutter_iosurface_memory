@@ -1,0 +1,1 @@
+../../../Target Support Files/smart_wall_preview_plugin/smart_wall_preview_plugin-umbrella.h
